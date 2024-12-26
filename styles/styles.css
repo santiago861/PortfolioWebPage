@@ -1,3 +1,6 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* GENERAL STYLE */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -150,7 +153,43 @@ svg.connect-svg {
     top: -100px;
 }
 
+#welcome-section {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    border: 2px solid white;
+}
 
+#stack-section {
+    width: 60%;
+    min-height: 100vh;
+    margin: auto;
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+}
+
+#work-section {
+    width: 85%;
+    min-height: 90vh;
+    margin: 0;
+
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#connect-section {
+    width: 70%;
+    min-height: 90vh;
+    margin: auto;
+    border: 2px solid white;
+    align-content: center;
+    text-align: center;
+}
 
 
 
@@ -233,8 +272,6 @@ svg.connect-svg {
     max-width: 100%;
     
 }
-
-
 
 
 
@@ -475,83 +512,130 @@ svg.connect-svg {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    
-    
+@media (min-width: 769px) and (max-width: 1280px) {
+    .navbar-links > li {
+        padding: 0 10px;
+    }
+    #section-link {
+        font-size: 27px;
+    }
+    #section-link:hover {
+        transform: scale(1.07);
+        transition-duration: .5s;
+    }
+    .navbar-links > li > a > svg:hover {
+        transform: scale(1.07);
+        transition-duration: .5s;
+    }
+    h1 {
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+    #welcome-section > p {
+        font-size: 18px;
+    }
+    #stack-section > h2 {
+        font-size: 48px;
+    }
+    #work-section > h2 {
+        font-size: 48px;
+    }
+    #connect-section > h2 {
+        font-size: 48px;
+    }
+    svg {
+        width: 3.5rem;
+        height: 3.5rem;
+        transition-duration: .5s;
+    }
+    .list-skill-stack > li {
+        padding: 0 10px;
+    }
+
+    #resume {
+        font-size: 20px;
+    }
+    #resume:hover {
+        font-size: 22px;
+    }
+    #connect-section {
+        font-size: 18px;
+    }
+    #connect-list > li {
+        padding: 0 15px; 
+    }
+    svg.connect-svg {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 18px;
+    }
+    #connect-list > li > a > svg:hover {
+        transform: scale(1.1);
+    }
+    .slider-projects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .slider-project {
+        text-align: left;
+    }
+    .details ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-flow: row;
+        gap: 0.5rem;
+    }
+    .details a {
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .slider-project h3 {
+        font-size: 26px;
+        max-width: 100%;
+    }
+    .details h4 {
+        font-size: 20px;
+    }
+    .details p {
+        font-size: 15px;
+    }
+
+    .details ul > li >svg {
+        width: 2.7rem;
+    }
+    .slider-project:hover {
+        transform: scale(1.02);
+    }
 }
 
-@media (max-width: 1280px) {
-    
+@media (min-width:1025px) and (max-width: 1280px) {
+    .details ul {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
 
-@media (max-width: 1680px) {
-    
+@media (min-width: 1281px) and (max-width: 1680px) {
+    .slider-projects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .details ul {
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-flow: row;
+        gap: 0.5rem;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 1681px) {
+    .slider-projects {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .details ul {
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-flow: row;
+        gap: 0.5rem;
+    }
+}
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
-#welcome-section {
-    width: 50%;
-    height: 100vh;
-    margin: 0 auto;
-    text-align: center;
-    align-content: center;
-    border: 2px solid white;
-}
-
-#stack-section {
-    width: 60%;
-    min-height: 100vh;
-    margin: auto;
-    border: 2px solid white;
-    align-content: center;
-    text-align: center;
-}
-
-#work-section {
-    width: 85%;
-    min-height: 90vh;
-    margin: 0;
-
-    border: 2px solid white;
-    align-content: center;
-    text-align: center;
-    margin: auto;
-}
-
-#connect-section {
-    width: 70%;
-    min-height: 90vh;
-    margin: auto;
-    border: 2px solid white;
-    align-content: center;
-    text-align: center;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------------ */
-
-
-
-
