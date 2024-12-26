@@ -14,7 +14,7 @@ body {
 main {
     background-color: #131519;
     width: 100vw;
-    height: calc(100vh*4);
+    /* height: calc(100vh*4); */
     position: relative;
     top: -50px;
     border: 2px solid white;
@@ -179,7 +179,7 @@ svg.connect-svg {
     border-radius: 15px;
     cursor: pointer;
     position: relative;
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 }
 
 .slider-projects .slider-project:first-child, .slider-projects .slider-project:last-child {
@@ -311,7 +311,7 @@ h3 {
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 #welcome-section {
     width: 50%;
-    height: 25%;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
     align-content: center;
@@ -320,7 +320,7 @@ h3 {
 
 #stack-section {
     width: 60%;
-    height: 25%;
+    height: 100vh;
     margin: auto;
     border: 2px solid white;
     align-content: center;
@@ -329,7 +329,7 @@ h3 {
 
 #work-section {
     width: 85%;
-    height: 25%;
+    height: 100vh;
     margin: auto;
     border: 2px solid white;
     align-content: center;
@@ -338,7 +338,7 @@ h3 {
 
 #connect-section {
     width: 70%;
-    height: 25%;
+    height: 100vh;
     margin: auto;
     border: 2px solid white;
     align-content: center;
